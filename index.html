@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <head>
     <title>Ssstutterfly</title>
+    <link rel="shortcut icon" type="image/jpg" href="Images/parrotIcon.png"/>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="main.css">
 
@@ -18,10 +19,10 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item mx-2">
-                        <a class="nav-link" aria-current="page" href="#">Hoe het werkt</a>
+                        <a class="nav-link" aria-current="page" href="#hoehetwerkt">Hoe het werkt</a>
                     </li>
                     <li class="nav-item mx-2">
-                        <a class="nav-link" href="#">FAQ</a>
+                        <a class="nav-link" href="#faqElement">FAQ</a>
                     </li>
                     <li class="nav-item mx-2">
                         <a class="nav-link" href="#">Beoordelingen</a>
@@ -29,8 +30,8 @@
                     <li class="nav-item mx-2">
                         <a class="nav-link">Contact</a>
                     </li>
-                    <li class="nav-item-button mx-2">
-                        <a class="nav-link" id="downloadbutton" href="#">Download</a>
+                    <li class="button mx-2">
+                        <a class="nav-link" id="downloadbutton" href="Ssstutterfly.apk" download>Download</a>
                     </li>
                 </ul>
             </div>
@@ -48,18 +49,23 @@
     <!-- Latest news element -->
 
     <div class="container my-5 my-sm-5">
+        <div class="row">
+            <div class="col-lg-3 ml-5 mb-2 mt-4">
+                <h3>Laatste nieuws</h3>
+            </div>
+        </div>
         <div class="row justify-content-center">
             <div class="col-md text-center mb-2">
-                <img src="Images/latestnews1.png">
-                <h3>Nieuws 1</h3>
+                <img src="Images/latestnews1.png" class="w-75">
+                <h3 class="mt-2">Nieuws 1</h3>
             </div>
             <div class="col-md text-center mb-2">
-                <img src="Images/latestnews2.png">
-                <h3>Nieuws 2</h3>
+                <img src="Images/latestnews2.png" class="w-75">
+                <h3 class="mt-2">Nieuws 2</h3>
             </div>
             <div class="col-md text-center mb-2">
-                <img src="Images/latestnews3.png">
-                <h3>Nieuws 3</h3>  
+                <img src="Images/latestnews3.png" class="w-75">
+                <h3 class="mt-2">Nieuws 3</h3>  
             </div>
         </div>
     </div>
@@ -67,26 +73,73 @@
     <hr>
 
     <!-- How ssstutterfly works element -->
-    <div class="container my-5 my-sm-5">
+    <div class="container my-5 my-sm-5" id="hoehetwerkt">
+        <div class="row justify-content-center mb-4">
+            <h1>Hoe Ssstutterfly werkt</h1>
+        </div>
+
         <div class="row justify-content-center">
-          <div class="col-md text-center mb-2">
-            <p class="lead">Same day shipping</p>
-            <p><small>Ordered before 23:59?<br>
-                      Next day at home</small></p>
-          </div>
-          <div class="col-md text-center mb-2">
-            <p class="lead">Free 30 day returns</p>
-            <p><small>If the product is returned within 30 days, the product will be refunded</small></p>
-          </div>
-          <div class="col-md text-center mb-2">
-            <p class="lead">Secure checkout</p>
-            <p><small>Pay securely on this webshop</small></p>
-          </div>
-        </div>    
+            <div class="col-md text-center mb-2">
+                <img src="Images/circle.png" class="my-3">
+                <p class="lead">Lorum Ipsum</p>
+                <p><small>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</small></p>
+            </div>
+
+            <div class="col-md text-center mb-2">
+                <img src="Images/arrow.png" class="my-5">
+            </div>
+
+            <div class="col-md text-center mb-2">
+                <img src="Images/circle.png" class="my-3">
+                <p class="lead">Lorum Ipsum</p>
+                <p><small>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</small></p>
+            </div>
+
+            <div class="col-md text-center mb-2">
+                <img src="Images/arrow.png" class="my-5">
+            </div>
+
+            <div class="col-md text-center mb-2">
+                <img src="Images/circle.png" class="my-3">
+                <p class="lead">Lorum Ipsum</p>
+                <p><small>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</small></p>
+            </div>
+        </div>
+        <!-- Get started-->
+        <div class="row justify-content-center">
+            <div class="button">
+                <a class="nav-link" id="downloadbutton" href="Ssstutterfly.apk">Download</a>
+            </div>
+        </div>
+        
     </div>
     <!-- Wavy background with phones-->
     <div>
         <img src="Images/wavybackground.png" class="w-100">
     </div>
+
+    <!-- Frequently Asked Questions -->
+
+    <div class="container-fluid my-5 my-sm-5" id="faqElement">
+        <div class="row">
+            <div class="col-lg-3">
+
+            </div>
+            <div class="col-lg-5 mb-2">
+                <h1>Frequently Asked Questions</h1>
+                <ul id="faq">
+                    <li><img src="Images/plusIcon.png">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                    <li><img src="Images/plusIcon.png">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                    <li><img src="Images/plusIcon.png">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                    <li><img src="Images/minusIcon.png">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                </ul>
+            </div>
+            
+        </div>
+    </div>
+
+    <hr>
+
+
 </body>
 </html>
