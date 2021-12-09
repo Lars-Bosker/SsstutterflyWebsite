@@ -1,0 +1,15 @@
+.nav-item-button {
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 0px;
+    text-decoration: none;
+    font-size: 16px; 
+    border-radius: 6px;
+  }
+
+  #downloadbutton {
+      color: white;
+  }
+
+
