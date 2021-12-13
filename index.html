@@ -1,145 +1,227 @@
 <!DOCTYPE html>
-<head>
-    <title>Ssstutterfly</title>
-    <link rel="shortcut icon" type="image/jpg" href="Images/parrotIcon.png"/>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="main.css">
+    <head>
+        <title>Ssstutterfly</title>
+        <link rel="shortcut icon" type="image/jpg" href="Images/parrotIcon.png"/>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <link rel="stylesheet" href="main.css">
 
-    <script src="https://kit.fontawesome.com/467555e0fe.js" crossorigin="anonymous"></script>
-    
+        <script src="https://kit.fontawesome.com/467555e0fe.js" crossorigin="anonymous"></script>
 
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid my-2">
-            <a class="navbar-brand" href="#">Ssstutterfly</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+        <!-- Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+
+        <!-- Social media icons -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item mx-2">
-                        <a class="nav-link" aria-current="page" href="#hoehetwerkt">Hoe het werkt</a>
-                    </li>
-                    <li class="nav-item mx-2">
-                        <a class="nav-link" href="#faqElement">FAQ</a>
-                    </li>
-                    <li class="nav-item mx-2">
-                        <a class="nav-link" href="#">Beoordelingen</a>
-                    </li>
-                    <li class="nav-item mx-2">
-                        <a class="nav-link">Contact</a>
-                    </li>
-                    <li class="button mx-2">
-                        <a class="nav-link" id="downloadbutton" href="Ssstutterfly.apk" download>Download</a>
-                    </li>
-                </ul>
+
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid my-2">
+                <a class="navbar-brand" href="#">Ssstutterfly</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item mx-2">
+                            <a class="nav-link" aria-current="page" href="#hoehetwerkt">Hoe het werkt</a>
+                        </li>
+                        <li class="nav-item mx-2">
+                            <a class="nav-link" href="#faqElement">FAQ</a>
+                        </li>
+                        <li class="nav-item mx-2">
+                            <a class="nav-link" href="#reviews">Reviews</a>
+                        </li>
+                        <li class="nav-item mx-2">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                        <li class="button mx-2">
+                            <a class="nav-link" id="downloadbutton" href="Ssstutterfly.apk" download>Download</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-        </div>
-    </nav>
+        </nav>
 
-</head>
-<body>
-    <!-- First background element -->
-    <div>
-        <img src="Images/top_background.png" class="w-100">
-    </div>
-
-
-    <!-- Latest news element -->
-
-    <div class="container my-5 my-sm-5">
-        <div class="row">
-            <div class="col-lg-3 ml-5 mb-2 mt-4">
-                <h3>Laatste nieuws</h3>
-            </div>
-        </div>
-        <div class="row justify-content-center">
-            <div class="col-md text-center mb-2">
-                <img src="Images/latestnews1.png" class="w-75">
-                <h3 class="mt-2">Nieuws 1</h3>
-            </div>
-            <div class="col-md text-center mb-2">
-                <img src="Images/latestnews2.png" class="w-75">
-                <h3 class="mt-2">Nieuws 2</h3>
-            </div>
-            <div class="col-md text-center mb-2">
-                <img src="Images/latestnews3.png" class="w-75">
-                <h3 class="mt-2">Nieuws 3</h3>  
-            </div>
-        </div>
-    </div>
-
-    <hr>
-
-    <!-- How ssstutterfly works element -->
-    <div class="container my-5 my-sm-5" id="hoehetwerkt">
-        <div class="row justify-content-center mb-4">
-            <h1>Hoe Ssstutterfly werkt</h1>
+    </head>
+    <body>
+        <!-- First background element -->
+        <div>
+            <img src="Images/top_background.png" class="w-100">
         </div>
 
-        <div class="row justify-content-center">
-            <div class="col-md text-center mb-2">
-                <img src="Images/circle.png" class="my-3">
-                <p class="lead">Lorum Ipsum</p>
-                <p><small>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</small></p>
-            </div>
 
-            <div class="col-md text-center mb-2">
-                <img src="Images/arrow.png" class="my-5">
-            </div>
+        <!-- Latest news element -->
 
-            <div class="col-md text-center mb-2">
-                <img src="Images/circle.png" class="my-3">
-                <p class="lead">Lorum Ipsum</p>
-                <p><small>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</small></p>
+        <div class="container my-5 my-sm-5">
+            <div class="row">
+                <div class="col-lg-3 ml-5 mb-2 mt-4">
+                    <h3>Laatste nieuws</h3>
+                </div>
             </div>
-
-            <div class="col-md text-center mb-2">
-                <img src="Images/arrow.png" class="my-5">
-            </div>
-
-            <div class="col-md text-center mb-2">
-                <img src="Images/circle.png" class="my-3">
-                <p class="lead">Lorum Ipsum</p>
-                <p><small>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</small></p>
+            <div class="row justify-content-center">
+                <div class="col-md text-center mb-2">
+                    <img src="Images/latestnews1.png" class="w-75">
+                    <h3 class="mt-2">Nieuws 1</h3>
+                </div>
+                <div class="col-md text-center mb-2">
+                    <img src="Images/latestnews2.png" class="w-75">
+                    <h3 class="mt-2">Nieuws 2</h3>
+                </div>
+                <div class="col-md text-center mb-2">
+                    <img src="Images/latestnews3.png" class="w-75">
+                    <h3 class="mt-2">Nieuws 3</h3>  
+                </div>
             </div>
         </div>
-        <!-- Get started-->
-        <div class="row justify-content-center">
-            <div class="button">
-                <a class="nav-link" id="downloadbutton" href="Ssstutterfly.apk">Download</a>
+
+        <hr>
+
+        <!-- How ssstutterfly works element -->
+        <div class="container my-5 my-sm-5" id="hoehetwerkt">
+            <div class="row justify-content-center mb-4">
+                <h1>Hoe Ssstutterfly werkt</h1>
             </div>
-        </div>
-        
-    </div>
-    <!-- Wavy background with phones-->
-    <div>
-        <img src="Images/wavybackground.png" class="w-100">
-    </div>
 
-    <!-- Frequently Asked Questions -->
+            <div class="row justify-content-center">
+                <div class="col-md text-center mb-2">
+                    <img src="Images/circle.png" class="my-3">
+                    <p class="lead">Lorum Ipsum</p>
+                    <p><small>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</small></p>
+                </div>
 
-    <div class="container-fluid my-5 my-sm-5" id="faqElement">
-        <div class="row">
-            <div class="col-lg-3">
+                <div class="col-md text-center mb-2">
+                    <img src="Images/arrow.png" class="my-5">
+                </div>
 
+                <div class="col-md text-center mb-2">
+                    <img src="Images/circle.png" class="my-3">
+                    <p class="lead">Lorum Ipsum</p>
+                    <p><small>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</small></p>
+                </div>
+
+                <div class="col-md text-center mb-2">
+                    <img src="Images/arrow.png" class="my-5">
+                </div>
+
+                <div class="col-md text-center mb-2">
+                    <img src="Images/circle.png" class="my-3">
+                    <p class="lead">Lorum Ipsum</p>
+                    <p><small>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</small></p>
+                </div>
             </div>
-            <div class="col-lg-5 mb-2">
-                <h1>Frequently Asked Questions</h1>
-                <ul id="faq">
-                    <li><img src="Images/plusIcon.png">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                    <li><img src="Images/plusIcon.png">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                    <li><img src="Images/plusIcon.png">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                    <li><img src="Images/minusIcon.png">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                </ul>
+            <!-- Get started-->
+            <div class="row justify-content-center">
+                <div class="button">
+                    <a class="nav-link" id="downloadbutton" href="Ssstutterfly.apk">Download</a>
+                </div>
             </div>
             
         </div>
-    </div>
+        <!-- Wavy background with phones-->
+        <div>
+            <img src="Images/wavybackground.png" class="w-100">
+        </div>
 
-    <hr>
+        <!-- Frequently Asked Questions -->
+
+        <div class="container-fluid my-5 my-sm-5" id="faqElement">
+            <div class="row">
+
+                <div class="col-10 offset-lg-2 offset-md-2 offset-sm-2 offset-1">
+                    <h1>Veel gestelde vragen</h1>
+                    <ul id="faq">
+                        <li><img src="Images/plusIcon.png">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                        <li><img src="Images/plusIcon.png">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                        <li><img src="Images/plusIcon.png">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                        <li><img src="Images/minusIcon.png">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                    </ul>
+                </div>
+            
+            </div>
+        </div>
+
+        <hr>
+
+        <!-- Reviews ------------------------------------------------------------------------------------------------- -->
+
+        <div class="container my-5 my-sm-5" id="reviews">
+            <div class="row justify-content-center mb-4">
+                <h1>Soon to be reviews!</h1>
+            </div>   
+        </div>
+
+        <div class="container-fluid">
+            <div class="row justify-content-center my-5">
+                <div class="col-lg-2 col-md-4 col-sm-4 col-8 m-4 justify-content-center" id="reviewBox">
+                    <p class="m-5">
+                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    </p>
+                    <h5 class="m-5">- Person Person -</h5>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-4 col-8 m-4 justify-content-center" id="reviewBox">
+                    <p class="m-5">
+                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    </p>
+                    <h5 class="m-5">- Person Person -</h5>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-4 col-8 m-4 justify-content-center" id="reviewBox">
+                    <p class="m-5">
+                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    </p>
+                    <h5 class="m-5">- Person Person -</h5>
+                </div>
+            </div>
+        </div>
+
+        <!-- Contact us ------------------------------------------------------------------------------------------------- -->
+
+        <div id="contact">
+            <img src="Images/bottomImage.png" class="w-100">
+        </div>
+
+        <!-- Footer ------------------------------------------------------------------------------------------------- -->
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-5 col-10 mt-5 offset-lg-1" id="social-media-icons-group">
+                    <a href="#" class="fa fa-twitter"></a>
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-instagram"></a>
+                    <a href="#" class="fa fa-linkedin"></a>
+                    <div class="mt-4">
+                        <h1>Ssstutterfly</h1>
+                        <h6>Address 1</h6>
+                        <h6>Address 2</h6>
+                        <h6>Address 3</h6>
+                        <h6>Address 4</h6>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-10">
+                    <h1>About</h1>
+                    <h6>Lorem ipsum</h6>
+                    <h6>Lorem ipsum</h6>
+                    <h6>Lorem ipsum</h6>
+                    <h6>Lorem ipsum</h6>
+                    <h6>Lorem ipsum</h6>
+                    <h6>Lorem ipsum</h6>
+                </div>
+                <div class="col-lg-3 col-10">
+                    <h1>Useful links</h1>
+                    <h6>Lorem ipsum</h6>
+                    <h6>Lorem ipsum</h6>
+                    <h6>Lorem ipsum</h6>
+                    <h6>Lorem ipsum</h6>
+                    <h6>Lorem ipsum</h6>
+                    <h6>Lorem ipsum</h6>
+                </div>
+            </div>
+        </div>
 
 
-</body>
+    </body>
 </html>
