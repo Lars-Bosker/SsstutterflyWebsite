@@ -4,31 +4,76 @@ html {
 
 body {
     font-family: 'Montserrat', sans-serif;
+    color: #185A36;
+}
+
+.navbar-nav {
+    color: white;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #185A36;
 }
 
 .button {
-    background-color: #04AA6D;
+    background-color: #185A36;
     border: none;
     color: white;
     padding: 0px;
     text-decoration: none;
+    text-align: center;
     font-size: 16px; 
     border-radius: 6px;
-  }
+}
 
-  #downloadbutton {
-      color: white;
-  }
-
-  .getStartedButton {
-    background-color: #04AA6D;
-    border: none;
+#downloadbutton {
     color: white;
-    padding: 10px;
-    text-decoration: none;
-    font-size: 16px; 
-    border-radius: 6px;
-  }
+    background-color: #185A36;
+    border-radius: 15px;
+}
+
+/* Top background image */  
+.container-fluid {
+  padding: 0px;
+}
+
+.row {
+  margin-right: 0px;
+}
+
+.btn {
+  background-color: #185A36;
+  color: white;
+}
+
+/*This is modifying the btn-primary colors but you could create your own .btn-something class as well*/
+.btn-primary {
+  color: #fff;
+  background-color: #185A36;
+  border-color: #357ebd; /*set the color you want here*/
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+  color: #fff;
+  background-color: #19693d;
+  border-color: #15472c; /*set the color you want here*/
+}
+
+.testIcon {
+  height: 80px;
+  color: #185A36;
+}
+
+/* Get started */
+
+.getStartedButton {
+  background-color: #185A36;
+  border: none;
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 16px; 
+  border-radius: 6px;
+}
 
 #faq {
     list-style-type: none;
@@ -62,38 +107,38 @@ body {
     text-decoration: none;
     margin: 5px 2px;
     border-radius: 50%;
-  }
+}
   
-  .fa:hover {
-      opacity: 0.7;
-  }
-  
-  .fa-twitter {
-    background: #006633;
-    color: white;
-    text-decoration: none;
-  }
+.fa:hover {
+    opacity: 0.7;
+}
 
-  .fa-facebook {
-    background: #006633;
-    color: white;
-    text-decoration: none;
-  }
-
-  .fa-instagram {
-    background: #006633;
-    color: white;
-    text-decoration: none;
-  }
-
-  .fa-linkedin {
-    background: #006633;
-    color: white;
-    text-decoration: none;
-  }
-
-  #social-media-icons-group {
-      max-height: 100px;
-  }
+.fa-twitter {
+  background: #006633;
+  color: white;
+  text-decoration: none;
+}
+.fa-facebook {
+  background: #006633;
+  color: white;
+  text-decoration: none;
+}
+.fa-instagram {
+  background: #006633;
+  color: white;
+  text-decoration: none;
+}
+.fa-linkedin {
+  background: #006633;
+  color: white;
+  text-decoration: none;
+}
+#social-media-icons-group {
+    max-height: 100px;
+}
+a:hover {
+  color: white;
+  text-decoration: none;
+}
   
 
