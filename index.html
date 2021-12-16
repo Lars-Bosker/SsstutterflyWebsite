@@ -55,7 +55,8 @@
                             <a class="nav-link" href="#contact">Contact</a>
                         </li>
                         <li class="button mx-2">
-                            <a class="nav-link" id="downloadbutton" href="Ssstutterfly.apk" download>Download</a>
+                            <a class="btn" href="Ssstutterfly.apk">Download</a>
+                            <!-- <a class="nav-link" id="downloadbutton" href="Ssstutterfly.apk" download>Download</a> -->
                         </li>
                     </ul>
                 </div>
@@ -74,7 +75,7 @@
                         <h4 class="my-5">Ssstutterfly app</h4>
                         <h1 class="my-5">Fundamentale ondersteuning bij stotteren</h1>
                         <p class="my-5">Samen met studenten van verschillende opleidingen zetten we steeds kleine stapjes in de richting van een steeds mooier product!</p>
-                        <a class="btn btn-primary" href="Ssstutterfly.apk">Download</a>
+                        <a class="btn" href="Ssstutterfly.apk">Download</a>
                     </div>
                     <div class="col-lg-3 offset-lg-1 col-6 offset-1">
                         <img src="Images/phonesTop3.png">
@@ -149,37 +150,42 @@
                 </div>
             </div>
             <!-- Download -->
+            <!--
             <div class="row justify-content-center mt-5">
                 <div class="button">
                     <a class="nav-link" id="downloadbutton" href="Ssstutterfly.apk">Download</a>
                 </div>
             </div>
+            -->
             
         </div>
-        <!-- Wavy background with phones-->
+        <!-- Wavy background with phones and benefits of Ssstutterfly-->
         
         <div class="container-fluid">
             <div class="bg-image py-4 shadow-1-strong mb-5" style="background-image: url('Images/wavybackgroundBottom.png'); background-size: cover;">
                 <div class="row" id="backgroundRow">
-                    <div class="col-lg-3 offset-lg-2 col-6 offset-1">
+                    <div class="col-lg-4 offset-lg-1 col-md-7 col-sm-8 col-10 offset-1">
                         <img class="w-100" src="Images/phonesBottom.png">
                     </div>
-                    <div class="col-lg-4 offset-lg-1 col-10 offset-1">
-                        <h2 class="mt-5">Voordelen van Ssstutterfly</h2>
-                        <ul>
+                    
+                    <!-- Voordelen Ssstutterfly -->
+                    <div class="col-lg-6 col-md-9 col-ms-10 offset-lg-1 col-10 offset-1 voordelen">
+                        <h2>Voordelen van Ssstutterfly</h2>
+                        <ul class="mt-5" id="voordelenLijst">
                             <li><img src="Images/SquareBulletPoint.png">Voordeel 1</li>
                             <li><img src="Images/SquareBulletPoint.png">Voordeel 1</li>
                             <li><img src="Images/SquareBulletPoint.png">Voordeel 1</li>
                             <li><img src="Images/SquareBulletPoint.png">Voordeel 1</li>
                         </ul>
                     </div>
+
                 </div>
             </div>
         </div>
 
         <!-- Frequently Asked Questions ------------------------------------------------------------------------------------------------------------------------------------------------------>
 
-        <div class="container-fluid my-5">
+        <div class="container-fluid my-5" id="faqElement">
             <div class="row">
                 <div class="col-lg-6 col-10 offset-lg-2 offset-md-1 offset-sm-2 offset-1">
                     <h1>Veelgestelde vragen</h1>
@@ -222,43 +228,47 @@
         <!-- Reviews ------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
 
         <div class="container my-5 my-sm-5" id="reviews">
-            <div class="row justify-content-center offset-lg-0 offset-1 mb-4">
+            <div class="row justify-content-center offset-lg-0 mb-4">
                 <h1>Reviews</h1>
             </div>   
         </div>
 
         <div class="container-fluid">
             <div class="row justify-content-center my-5">
-                <div class="col-lg-2 col-md-4 col-sm-4 col-8 m-4 justify-content-center" id="reviewBox">
-                    <p class="m-5">
-                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                <div class="col-lg-2 col-md-6 col-sm-8 col-8 m-4 justify-content-center" id="reviewBox">
+                    <p class="m-3">
+                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
                     </p>
-                    <h5 class="m-5">- Person Person -</h5>
+                    <h5 class="m-4">- Person Person -</h5>
                 </div>
-                <div class="col-lg-2 col-md-4 col-sm-4 col-8 m-4 justify-content-center" id="reviewBox">
-                    <p class="m-5">
-                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                <div class="col-lg-2 col-md-6 col-sm-8 col-8 m-4 justify-content-center" id="reviewBox">
+                    <p class="m-3">
+                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
                     </p>
-                    <h5 class="m-5">- Person Person -</h5>
+                    <h5 class="m-4">- Person Person -</h5>
                 </div>
-                <div class="col-lg-2 col-md-4 col-sm-4 col-8 m-4 justify-content-center" id="reviewBox">
-                    <p class="m-5">
-                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                <div class="col-lg-2 col-md-6 col-sm-8 col-8 m-4 justify-content-center" id="reviewBox">
+                    <p class="m-3">
+                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
                     </p>
-                    <h5 class="m-5">- Person Person -</h5>
+                    <h5 class="m-4 justify-content-center">- Person Person -</h5>
                 </div>
             </div>
         </div>
 
         <!-- Footer background image --------------------------------------------------------------------------------------------------------------------------------------------------------->
 
-        <div id="contact">
+        <div>
             <img src="Images/bottomImage.png" class="w-100">
         </div>
+    
     </body>
+    
         <!-- Footer -------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+    
     <footer>
-        <div class="container-fluid">
+
+        <div class="container-fluid" id="contact">
             <div class="row offset-2 mt-5">
                 <div class="col-lg-8 col-10" id="social-media-icons-group">
                     <a href="#" class="fa fa-twitter"></a>
@@ -267,16 +277,16 @@
                     <a href="#" class="fa fa-linkedin"></a>
                 </div>
             </div>
-            <div class="row offset-2 my-5">
+            <div class="row offset-2 mb-5 mt-2">
                 <div class="col-lg-4 col-md-7 col-sm-7 col-10 mt-4">
-                    <h1>Ssstutterfly</h1>
+                    <h1 class="mb-4">Ssstutterfly</h1>
                     <h6>Address 1</h6>
                     <h6>Address 2</h6>
                     <h6>Address 3</h6>
                     <h6>Address 4</h6>
                 </div>
                 <div class="col-lg-4 col-md-7 col-sm-7 col-10 mt-4">
-                    <h1>About</h1>
+                    <h1 class="mb-4">About</h1>
                     <h6>Lorem ipsum</h6>
                     <h6>Lorem ipsum</h6>
                     <h6>Lorem ipsum</h6>
@@ -285,7 +295,7 @@
                     <h6>Lorem ipsum</h6>
                 </div>
                 <div class="col-lg-4 col-md-7 col-sm-7 col-10 mt-4">
-                    <h1>Useful links</h1>
+                    <h1 class="mb-4">Useful links</h1>
                     <h6>Lorem ipsum</h6>
                     <h6>Lorem ipsum</h6>
                     <h6>Lorem ipsum</h6>

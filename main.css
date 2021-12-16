@@ -50,12 +50,25 @@ body {
 .btn-primary {
   color: #fff;
   background-color: #185A36;
-  border-color: #357ebd; /*set the color you want here*/
+  border-color: rgba(100, 100, 100, 0.5); /*set the color you want here*/
 }
+/*
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
   color: #fff;
-  background-color: #19693d;
-  border-color: #15472c; /*set the color you want here*/
+  background-color: #19693d; 
+  border-color: #15472c;
+  outline: none;
+}
+*/
+
+.btn:focus, .btn:hover {
+  color: white;
+}
+
+.btn:focus {
+  outline: none !important;
+  box-shadow: none !important;
+  background-color: #185A36;
 }
 
 .testIcon {
@@ -75,18 +88,22 @@ body {
   border-radius: 6px;
 }
 
-#faq {
-    list-style-type: none;
-    padding: 0;
+#voordelenLijst {
+  list-style-type: none;
+  padding: 0;
 }
 
-#faq li {
-    padding-top: 20px;
-    font-size: 20px;
+#voordelenLijst li {
+  padding-top: 20px;
+  font-size: 20px;
 }
 
-#faq li img {
-    padding-right: 30px;
+#voordelenLijst li img {
+  padding-right: 30px;
+}
+
+.voordelen {
+  margin-top: 10em;
 }
 
 /* FAQ */
