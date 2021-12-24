@@ -151,9 +151,14 @@ body {
     border-radius: 15px;
 }
 
-/* Footer */
+/* Contact */
+#contact {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
 
     /* Social media icons */
+
 .fa {
     padding: 15px;
     font-size: 30px;
@@ -191,6 +196,7 @@ body {
 }
 #social-media-icons-group {
     max-height: 100px;
+    padding-left: 0px;
 }
 a:hover {
   color: white;
